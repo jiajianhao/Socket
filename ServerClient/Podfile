@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ServerClient' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for ServerClient
+	pod 'CocoaAsyncSocket', '~> 7.6.1'
+  target 'ServerClientTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ServerClientUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

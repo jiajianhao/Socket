@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12A32D291F44710D00FFCE38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32D281F44710D00FFCE38 /* main.m */; };
+		12A32D2C1F44710D00FFCE38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32D2B1F44710D00FFCE38 /* AppDelegate.m */; };
+		12A32D2F1F44710D00FFCE38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32D2E1F44710D00FFCE38 /* ViewController.m */; };
+		12A32D321F44710D00FFCE38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A32D301F44710D00FFCE38 /* Main.storyboard */; };
+		12A32D351F44710D00FFCE38 /* SocketUdpClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12A32D331F44710D00FFCE38 /* SocketUdpClient.xcdatamodeld */; };
+		12A32D371F44710D00FFCE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A32D361F44710D00FFCE38 /* Assets.xcassets */; };
+		12A32D3A1F44710D00FFCE38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A32D381F44710D00FFCE38 /* LaunchScreen.storyboard */; };
+		12A32D451F44710E00FFCE38 /* SocketUdpClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32D441F44710E00FFCE38 /* SocketUdpClientTests.m */; };
+		12A32D501F44710E00FFCE38 /* SocketUdpClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32D4F1F44710E00FFCE38 /* SocketUdpClientUITests.m */; };
+		12A32D5F1F453DEF00FFCE38 /* CommonFuc.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32D5E1F453DEF00FFCE38 /* CommonFuc.m */; };
+		242B86628715ED3B323BD41C /* libPods-SocketUdpClientUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD3D82388A52C174677536 /* libPods-SocketUdpClientUITests.a */; };
+		904CB2E8798E42F8B10B5598 /* libPods-SocketUdpClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7227C71CBE7065A1C2AE414 /* libPods-SocketUdpClient.a */; };
+		B45491EEE353E778FD5CEA3F /* libPods-SocketUdpClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA33FF11A0DA348C7049812C /* libPods-SocketUdpClientTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12A32D411F44710D00FFCE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A32D1C1F44710D00FFCE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A32D231F44710D00FFCE38;
+			remoteInfo = SocketUdpClient;
+		};
+		12A32D4C1F44710E00FFCE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A32D1C1F44710D00FFCE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A32D231F44710D00FFCE38;
+			remoteInfo = SocketUdpClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024193986095DB8D556965A5 /* Pods-SocketUdpClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketUdpClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocketUdpClientUITests/Pods-SocketUdpClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		12A32D241F44710D00FFCE38 /* SocketUdpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketUdpClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A32D281F44710D00FFCE38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12A32D2A1F44710D00FFCE38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12A32D2B1F44710D00FFCE38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12A32D2D1F44710D00FFCE38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12A32D2E1F44710D00FFCE38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12A32D311F44710D00FFCE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12A32D341F44710D00FFCE38 /* SocketUdpClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocketUdpClient.xcdatamodel; sourceTree = "<group>"; };
+		12A32D361F44710D00FFCE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12A32D391F44710D00FFCE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12A32D3B1F44710D00FFCE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A32D401F44710D00FFCE38 /* SocketUdpClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketUdpClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A32D441F44710E00FFCE38 /* SocketUdpClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketUdpClientTests.m; sourceTree = "<group>"; };
+		12A32D461F44710E00FFCE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A32D4B1F44710E00FFCE38 /* SocketUdpClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketUdpClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A32D4F1F44710E00FFCE38 /* SocketUdpClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketUdpClientUITests.m; sourceTree = "<group>"; };
+		12A32D511F44710E00FFCE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A32D5D1F453DEF00FFCE38 /* CommonFuc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFuc.h; sourceTree = "<group>"; };
+		12A32D5E1F453DEF00FFCE38 /* CommonFuc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFuc.m; sourceTree = "<group>"; };
+		25CB296AB2D8C776FEF0AD87 /* Pods-SocketUdpClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketUdpClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocketUdpClientTests/Pods-SocketUdpClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		32CD3D82388A52C174677536 /* libPods-SocketUdpClientUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocketUdpClientUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C15F72DB9A90E36748E7AA /* Pods-SocketUdpClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketUdpClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocketUdpClientTests/Pods-SocketUdpClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		49C684A24374DDFB1955E7F2 /* Pods-SocketUdpClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketUdpClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocketUdpClient/Pods-SocketUdpClient.release.xcconfig"; sourceTree = "<group>"; };
+		8D61F6CA59B99C009AB22136 /* Pods-SocketUdpClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketUdpClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocketUdpClientUITests/Pods-SocketUdpClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7227C71CBE7065A1C2AE414 /* libPods-SocketUdpClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocketUdpClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE13EFC2813B571B910C9E50 /* Pods-SocketUdpClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketUdpClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocketUdpClient/Pods-SocketUdpClient.debug.xcconfig"; sourceTree = "<group>"; };
+		EA33FF11A0DA348C7049812C /* libPods-SocketUdpClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocketUdpClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12A32D211F44710D00FFCE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904CB2E8798E42F8B10B5598 /* libPods-SocketUdpClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32D3D1F44710D00FFCE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45491EEE353E778FD5CEA3F /* libPods-SocketUdpClientTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32D481F44710E00FFCE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242B86628715ED3B323BD41C /* libPods-SocketUdpClientUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A32D1B1F44710D00FFCE38 = {
+			isa = PBXGroup;
+			children = (
+				12A32D261F44710D00FFCE38 /* SocketUdpClient */,
+				12A32D431F44710D00FFCE38 /* SocketUdpClientTests */,
+				12A32D4E1F44710E00FFCE38 /* SocketUdpClientUITests */,
+				12A32D251F44710D00FFCE38 /* Products */,
+				1A51011157D993E649227300 /* Pods */,
+				BD85D0A0F065EBFA94908594 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12A32D251F44710D00FFCE38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12A32D241F44710D00FFCE38 /* SocketUdpClient.app */,
+				12A32D401F44710D00FFCE38 /* SocketUdpClientTests.xctest */,
+				12A32D4B1F44710E00FFCE38 /* SocketUdpClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12A32D261F44710D00FFCE38 /* SocketUdpClient */ = {
+			isa = PBXGroup;
+			children = (
+				12A32D2A1F44710D00FFCE38 /* AppDelegate.h */,
+				12A32D2B1F44710D00FFCE38 /* AppDelegate.m */,
+				12A32D2D1F44710D00FFCE38 /* ViewController.h */,
+				12A32D2E1F44710D00FFCE38 /* ViewController.m */,
+				12A32D5D1F453DEF00FFCE38 /* CommonFuc.h */,
+				12A32D5E1F453DEF00FFCE38 /* CommonFuc.m */,
+				12A32D301F44710D00FFCE38 /* Main.storyboard */,
+				12A32D361F44710D00FFCE38 /* Assets.xcassets */,
+				12A32D381F44710D00FFCE38 /* LaunchScreen.storyboard */,
+				12A32D3B1F44710D00FFCE38 /* Info.plist */,
+				12A32D331F44710D00FFCE38 /* SocketUdpClient.xcdatamodeld */,
+				12A32D271F44710D00FFCE38 /* Supporting Files */,
+			);
+			path = SocketUdpClient;
+			sourceTree = "<group>";
+		};
+		12A32D271F44710D00FFCE38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12A32D281F44710D00FFCE38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12A32D431F44710D00FFCE38 /* SocketUdpClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				12A32D441F44710E00FFCE38 /* SocketUdpClientTests.m */,
+				12A32D461F44710E00FFCE38 /* Info.plist */,
+			);
+			path = SocketUdpClientTests;
+			sourceTree = "<group>";
+		};
+		12A32D4E1F44710E00FFCE38 /* SocketUdpClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12A32D4F1F44710E00FFCE38 /* SocketUdpClientUITests.m */,
+				12A32D511F44710E00FFCE38 /* Info.plist */,
+			);
+			path = SocketUdpClientUITests;
+			sourceTree = "<group>";
+		};
+		1A51011157D993E649227300 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE13EFC2813B571B910C9E50 /* Pods-SocketUdpClient.debug.xcconfig */,
+				49C684A24374DDFB1955E7F2 /* Pods-SocketUdpClient.release.xcconfig */,
+				47C15F72DB9A90E36748E7AA /* Pods-SocketUdpClientTests.debug.xcconfig */,
+				25CB296AB2D8C776FEF0AD87 /* Pods-SocketUdpClientTests.release.xcconfig */,
+				8D61F6CA59B99C009AB22136 /* Pods-SocketUdpClientUITests.debug.xcconfig */,
+				024193986095DB8D556965A5 /* Pods-SocketUdpClientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD85D0A0F065EBFA94908594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7227C71CBE7065A1C2AE414 /* libPods-SocketUdpClient.a */,
+				EA33FF11A0DA348C7049812C /* libPods-SocketUdpClientTests.a */,
+				32CD3D82388A52C174677536 /* libPods-SocketUdpClientUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12A32D231F44710D00FFCE38 /* SocketUdpClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A32D541F44710E00FFCE38 /* Build configuration list for PBXNativeTarget "SocketUdpClient" */;
+			buildPhases = (
+				7B12BC57AADEB2323D23CD9E /* [CP] Check Pods Manifest.lock */,
+				12A32D201F44710D00FFCE38 /* Sources */,
+				12A32D211F44710D00FFCE38 /* Frameworks */,
+				12A32D221F44710D00FFCE38 /* Resources */,
+				A4F77B2B51732F74801F2AEE /* [CP] Embed Pods Frameworks */,
+				90F5711C6911C6AFCAF17F06 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketUdpClient;
+			productName = SocketUdpClient;
+			productReference = 12A32D241F44710D00FFCE38 /* SocketUdpClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12A32D3F1F44710D00FFCE38 /* SocketUdpClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A32D571F44710E00FFCE38 /* Build configuration list for PBXNativeTarget "SocketUdpClientTests" */;
+			buildPhases = (
+				40447F2415630ECACF4AFF9F /* [CP] Check Pods Manifest.lock */,
+				12A32D3C1F44710D00FFCE38 /* Sources */,
+				12A32D3D1F44710D00FFCE38 /* Frameworks */,
+				12A32D3E1F44710D00FFCE38 /* Resources */,
+				6090E548CDDA13B6C37686E3 /* [CP] Embed Pods Frameworks */,
+				BAC60E83601D00D559C376C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A32D421F44710D00FFCE38 /* PBXTargetDependency */,
+			);
+			name = SocketUdpClientTests;
+			productName = SocketUdpClientTests;
+			productReference = 12A32D401F44710D00FFCE38 /* SocketUdpClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12A32D4A1F44710E00FFCE38 /* SocketUdpClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A32D5A1F44710E00FFCE38 /* Build configuration list for PBXNativeTarget "SocketUdpClientUITests" */;
+			buildPhases = (
+				7EB01D7E295AA286AC92A1FD /* [CP] Check Pods Manifest.lock */,
+				12A32D471F44710E00FFCE38 /* Sources */,
+				12A32D481F44710E00FFCE38 /* Frameworks */,
+				12A32D491F44710E00FFCE38 /* Resources */,
+				6EE96BB3342D4603C3077AC1 /* [CP] Embed Pods Frameworks */,
+				E2511842EA9E04961F71BDCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A32D4D1F44710E00FFCE38 /* PBXTargetDependency */,
+			);
+			name = SocketUdpClientUITests;
+			productName = SocketUdpClientUITests;
+			productReference = 12A32D4B1F44710E00FFCE38 /* SocketUdpClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12A32D1C1F44710D00FFCE38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jiajianhao;
+				TargetAttributes = {
+					12A32D231F44710D00FFCE38 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 62GQZL3ETX;
+						ProvisioningStyle = Automatic;
+					};
+					12A32D3F1F44710D00FFCE38 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 62GQZL3ETX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12A32D231F44710D00FFCE38;
+					};
+					12A32D4A1F44710E00FFCE38 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 62GQZL3ETX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12A32D231F44710D00FFCE38;
+					};
+				};
+			};
+			buildConfigurationList = 12A32D1F1F44710D00FFCE38 /* Build configuration list for PBXProject "SocketUdpClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12A32D1B1F44710D00FFCE38;
+			productRefGroup = 12A32D251F44710D00FFCE38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12A32D231F44710D00FFCE38 /* SocketUdpClient */,
+				12A32D3F1F44710D00FFCE38 /* SocketUdpClientTests */,
+				12A32D4A1F44710E00FFCE38 /* SocketUdpClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12A32D221F44710D00FFCE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A32D3A1F44710D00FFCE38 /* LaunchScreen.storyboard in Resources */,
+				12A32D371F44710D00FFCE38 /* Assets.xcassets in Resources */,
+				12A32D321F44710D00FFCE38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32D3E1F44710D00FFCE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32D491F44710E00FFCE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40447F2415630ECACF4AFF9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6090E548CDDA13B6C37686E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketUdpClientTests/Pods-SocketUdpClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE96BB3342D4603C3077AC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketUdpClientUITests/Pods-SocketUdpClientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B12BC57AADEB2323D23CD9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB01D7E295AA286AC92A1FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90F5711C6911C6AFCAF17F06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketUdpClient/Pods-SocketUdpClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F77B2B51732F74801F2AEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketUdpClient/Pods-SocketUdpClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAC60E83601D00D559C376C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketUdpClientTests/Pods-SocketUdpClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2511842EA9E04961F71BDCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketUdpClientUITests/Pods-SocketUdpClientUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12A32D201F44710D00FFCE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A32D2F1F44710D00FFCE38 /* ViewController.m in Sources */,
+				12A32D351F44710D00FFCE38 /* SocketUdpClient.xcdatamodeld in Sources */,
+				12A32D2C1F44710D00FFCE38 /* AppDelegate.m in Sources */,
+				12A32D291F44710D00FFCE38 /* main.m in Sources */,
+				12A32D5F1F453DEF00FFCE38 /* CommonFuc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32D3C1F44710D00FFCE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A32D451F44710E00FFCE38 /* SocketUdpClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32D471F44710E00FFCE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A32D501F44710E00FFCE38 /* SocketUdpClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12A32D421F44710D00FFCE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A32D231F44710D00FFCE38 /* SocketUdpClient */;
+			targetProxy = 12A32D411F44710D00FFCE38 /* PBXContainerItemProxy */;
+		};
+		12A32D4D1F44710E00FFCE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A32D231F44710D00FFCE38 /* SocketUdpClient */;
+			targetProxy = 12A32D4C1F44710E00FFCE38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12A32D301F44710D00FFCE38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12A32D311F44710D00FFCE38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12A32D381F44710D00FFCE38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12A32D391F44710D00FFCE38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12A32D521F44710E00FFCE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12A32D531F44710E00FFCE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12A32D551F44710E00FFCE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE13EFC2813B571B910C9E50 /* Pods-SocketUdpClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62GQZL3ETX;
+				INFOPLIST_FILE = SocketUdpClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiajianhao.Test22;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12A32D561F44710E00FFCE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C684A24374DDFB1955E7F2 /* Pods-SocketUdpClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62GQZL3ETX;
+				INFOPLIST_FILE = SocketUdpClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiajianhao.Test22;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12A32D581F44710E00FFCE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C15F72DB9A90E36748E7AA /* Pods-SocketUdpClientTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 62GQZL3ETX;
+				INFOPLIST_FILE = SocketUdpClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiajianhao.SocketUdpClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketUdpClient.app/SocketUdpClient";
+			};
+			name = Debug;
+		};
+		12A32D591F44710E00FFCE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25CB296AB2D8C776FEF0AD87 /* Pods-SocketUdpClientTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 62GQZL3ETX;
+				INFOPLIST_FILE = SocketUdpClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiajianhao.SocketUdpClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketUdpClient.app/SocketUdpClient";
+			};
+			name = Release;
+		};
+		12A32D5B1F44710E00FFCE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D61F6CA59B99C009AB22136 /* Pods-SocketUdpClientUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 62GQZL3ETX;
+				INFOPLIST_FILE = SocketUdpClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiajianhao.SocketUdpClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocketUdpClient;
+			};
+			name = Debug;
+		};
+		12A32D5C1F44710E00FFCE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024193986095DB8D556965A5 /* Pods-SocketUdpClientUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 62GQZL3ETX;
+				INFOPLIST_FILE = SocketUdpClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiajianhao.SocketUdpClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocketUdpClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12A32D1F1F44710D00FFCE38 /* Build configuration list for PBXProject "SocketUdpClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A32D521F44710E00FFCE38 /* Debug */,
+				12A32D531F44710E00FFCE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A32D541F44710E00FFCE38 /* Build configuration list for PBXNativeTarget "SocketUdpClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A32D551F44710E00FFCE38 /* Debug */,
+				12A32D561F44710E00FFCE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A32D571F44710E00FFCE38 /* Build configuration list for PBXNativeTarget "SocketUdpClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A32D581F44710E00FFCE38 /* Debug */,
+				12A32D591F44710E00FFCE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A32D5A1F44710E00FFCE38 /* Build configuration list for PBXNativeTarget "SocketUdpClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A32D5B1F44710E00FFCE38 /* Debug */,
+				12A32D5C1F44710E00FFCE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12A32D331F44710D00FFCE38 /* SocketUdpClient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12A32D341F44710D00FFCE38 /* SocketUdpClient.xcdatamodel */,
+			);
+			currentVersion = 12A32D341F44710D00FFCE38 /* SocketUdpClient.xcdatamodel */;
+			path = SocketUdpClient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12A32D1C1F44710D00FFCE38 /* Project object */;
+}
